@@ -41,7 +41,6 @@ export function itemsFetchData(url) {
             .then((users) => {
 
                 dispatch(itemsFetchDataSuccess(users));
-                console.log(users)
             })
             .catch(() => dispatch(itemsHasErrored(true)));
 
