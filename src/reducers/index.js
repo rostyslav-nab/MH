@@ -1,11 +1,8 @@
 import { combineReducers } from 'redux';
-import { users, itemsHasErrored, itemsIsLoading, itemPageSize, itemTotalUserCount, itemCurrentPage } from './items';
+import { users, itemsHasErrored, itemsIsLoading} from './items';
 
 export default combineReducers({
     users,
     itemsHasErrored,
     itemsIsLoading
-    // itemPageSize,
-    // itemTotalUserCount,
-    // itemCurrentPage
 });

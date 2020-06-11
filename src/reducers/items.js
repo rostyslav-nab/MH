@@ -27,35 +27,3 @@ export function users(state = [], action) {
             return state;
     }
 }
-
-// export function itemPageSize(state= 5, action) {
-//     switch (action.type) {
-//         case 'ITEMS_PAGE_SIZE':
-//             return action.itemPageSize;
-//
-//         default:
-//             return state;
-//     }
-// }
-// export function itemTotalUserCount(state = 14, action) {
-//     switch (action.type) {
-//         case 'ITEM_TOTAL_USER_COUNT':
-//             return action.itemTotalUserCount;
-//
-//         default:
-//             return state;
-//     }
-// }
-// export function itemCurrentPage(state = 1, action) {
-//     switch (action.type) {
-//         case 'ITEMS_CURRENT_PAGE':
-//             return action.itemCurrentPage;
-//
-//         default:
-//             return state;
-//     }
-// }
-//
-
-
-
